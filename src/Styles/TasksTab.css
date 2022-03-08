@@ -1,0 +1,122 @@
+.wrapper_tab {
+  display: flex;
+  flex-direction: column;
+}
+.tasks_wraper {
+  flex: 1;
+  padding: 0rem 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks_heading {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.4rem;
+}
+
+.tasks_heading div h3 {
+  font-weight: 600;
+  color: rgb(46, 46, 46);
+  font-size: 1.4rem;
+}
+
+.tasks_heading div p {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-top: 0.15rem;
+  color: rgb(105, 105, 105);
+}
+
+.tasks_container {
+  /* border: 1px solid salmon; */
+
+  margin-top: 1.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* border: 1px solid red; */
+  height: 300px;
+  overflow: auto;
+}
+
+.tasks_container::-webkit-scrollbar {
+  display: none;
+}
+
+.tasks_container-task {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
+.tasks_container_task-content {
+  margin-left: 0.5rem;
+}
+
+.tasks_container_task-content p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  /* border: 1px solid salmon; */
+  padding-top: 0.25rem;
+  color: rgb(49, 49, 49);
+}
+
+.task_content-options {
+  margin-top: 0.35rem;
+  /* border: 1px solid salmon; */
+}
+
+.task_content_option-deadline {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 2rem;
+  cursor: default;
+  color: white;
+  background-color: rgb(7, 109, 7);
+  margin-top: 0.5rem;
+}
+
+.task_content_optio-finished {
+  border: 1px solid rgb(7, 109, 7) !important;
+  font-size: 0.6rem !important;
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 2px 8px !important;
+  border-radius: 2rem !important;
+  text-transform: capitalize !important;
+  color: rgb(7, 109, 7) !important;
+  /* margin: 0rem 0.6rem !important; */
+  margin-right: 0.5rem !important;
+}
+
+.task_content_optio-delete {
+  border: 1px solid rgb(190, 5, 5) !important;
+  font-size: 0.6rem !important;
+  font-weight: 600 !important;
+  font-family: "Montserrat", sans-serif !important;
+  padding: 2px 8px !important;
+  border-radius: 2rem !important;
+  text-transform: capitalize !important;
+  color: rgb(177, 6, 6) !important;
+}
+
+.tasks_container-icon {
+  margin-top: 0.3rem;
+
+}
+.notodos_box{
+  flex:0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+
+}
+.notodos_box h3{
+  font-weight: 600;
+  color: rgb(54, 54, 54);
+}

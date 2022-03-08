@@ -1,0 +1,50 @@
+.statistics_wrapper {
+  flex: 1;
+}
+
+.group_data-container {
+    height: 240px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+
+}
+
+.group_data-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.group_data-container-stats {
+
+  display: flex;
+  flex-direction: column;
+  margin: 0.35rem 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  width: 130px;
+  cursor: pointer;
+}
+.group_data-container_name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgb(49, 49, 49);
+}
+.group_data-container_count {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.group_data-progress {
+  font-weight: 500;
+  color: rgb(46, 46, 46);
+  padding: 0.5rem 0.5rem;
+}
+.CircularProgressbar-text{
+    font-weight: 500 !important;
+
+}
