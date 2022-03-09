@@ -71,7 +71,7 @@ const TasksTab = () => {
             setDisableButtons(true)
             const Signer = contractObj.connect(ethersObj.signer)
             setIsProcessing(true)
-            if (action == 'finished') {
+            if (action === 'finished') {
                 await Signer.setIsFinished(id)
                 setDisableButtons(false)
                 setSnackbarProps({
